@@ -12,11 +12,11 @@ class CustomerController{
     @GetMapping("/getAll")
     fun getAllCustomers(@RequestParam(value = "name", defaultValue = "World") name: String): MutableList<Customer> {
             println("Hello, $name")
-
+//
 //        var customers : MutableList<Customer> = mutableListOf<Customer>()
-//        customers.add(Customer("1","Lawrence", "Smith"))
-//        customers.add(Customer("2","Alice", "Smith"))
-//        customers.add(Customer("3","Cammy", "Smith"))
+//        customers.add(Customer("Lawrence", "Smith"))
+//        customers.add(Customer("Alice", "Smith"))
+//        customers.add(Customer("Cammy", "Smith"))
 //        repository?.saveAll(customers)
 //        println(customers.size)
 //
